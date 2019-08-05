@@ -1,0 +1,6 @@
+version: '3'
+services:
+   django:
+      image: petermcd/django-uwsgi-nginx
+      ports:
+         - 8080:80
